@@ -1,0 +1,63 @@
+.loginD,.shopD{
+	width: 500px;
+	height: 470px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+	background: rgba(255,255,255,0.7);
+	overflow: hidden;
+	padding-top: 30px;
+}
+.loginD,.shopD{
+	opacity: 0;
+}
+[name=username],[name=password],.code{
+	width: 458px;
+	height: 60px;
+	font-size: 30px;
+	margin: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.code{
+	margin-bottom: 60px;
+}
+.huad{
+	width: 458px;
+	height: 60px;
+	line-height: 60px;
+	margin: 40px 20px;
+	text-align: center;
+	font-size: 30px;
+	background: #fff;
+	color: #aaa;
+	border-radius: 30px;
+	position: relative;
+}
+.xhuad{
+	width: 60px;
+	height: 100%;
+	color: #eee;
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+[name=loginB],[name=nextB],[name=shopB]{
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	background: #ff4400;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 26px;
+}
+.bot:hover{
+	background: #f52b00;
+}
+[name=loginB],[name=shopB]{
+	margin: 0 56px 0 20px;
+}

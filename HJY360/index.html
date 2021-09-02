@@ -1,0 +1,2634 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>360购物</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="css/style3.css" />
+	<link rel="stylesheet" type="text/css" href="css/style4.css" />
+	<style type="text/css">
+		#gdcd1{
+			width:78px;
+			height:276px;
+			position:fixed;
+			bottom:10%;
+			left:50%;
+			margin-left:919px;
+			z-index: 100;
+			line-height: 27px;
+			font-size:18px;		
+		}
+		.gdLis{
+			width:78px;
+			height:92px;
+			border:1px solid #eee;
+			border-bottom:0;
+			background:#fff;
+		}
+		.gdLis:hover span{
+			display:block;
+		}
+		.gdLis a:active span{
+			display:block;
+		}
+		.gdLis1 a:active{
+			background:#f86e6d;
+		}
+		.gdLis2 a:active{
+			background:#000;
+		}
+		.gdLis3 a:active{
+			background:#eebe4c;
+		}
+		.gdLis1:hover{
+			background:#f86e6d;
+		}
+		.gdLis2:hover{
+			background:#000;
+		}
+		.gdLis3:hover{
+			background:#eebe4c;
+		}
+		.gdLis a{
+			width:39px;
+			height:60px;
+			padding:18px;
+			color:#f2a487;
+			position:relative;
+			z-index: auto;
+			display: block;
+		}
+		.gdLis2 a{
+			color:#000;
+		}
+		.gdLis3 a{
+			color:#eebe4c;
+		}
+		.gdLis a:hover{
+			color:#fff;
+		}
+		.gdLis a span{
+			width:33px;
+			height:33px;
+			background:#f86e6d;
+			border-radius:15px;
+			position: absolute;
+			top:-15px;
+			left:22px;
+			text-align: center;
+			line-height: 37px;
+			z-index: auto;
+			display:none;
+		}
+		.gdLis2 a span{
+			background:#000;
+			color:#fff;
+		}
+		.gdLis3 a span{
+			background:#eebe4c;
+			color:#fff;
+		}
+		#gdTop{
+			width:45px;
+			height:93px;
+			position:fixed;
+			bottom:3%;
+			right:0;
+			z-index: 101;
+		}
+		.toTopfk{
+			width:45px;
+			height:45px;
+			margin-top:2px;
+		}
+		.toTopfk a{
+			width:45px;
+			height:45px;
+			float:right;
+			padding-right:4px;
+			line-height: 45px;
+			color:#fff;
+			position:relative;
+			background:#000 url("img/2/a/toTop.png") no-repeat;
+		}
+		.toTopfk a:hover span{
+			display:block;
+		}
+		.toTopfk a span{
+			width:105px;
+			height:45px;
+			color:#feffff;
+			line-height:45px;
+			padding-left:15px;
+			position:absolute; 
+			right:0;
+			top:0;
+			display: none;
+			background:#fc5755 url("img/2/a/toTopspan.png") no-repeat 0 4px;
+		}
+		.toTopfk .toToptu{
+			background-position: 2px 0;
+		}
+		.toTopfk .fankui{
+			background-position: -47px 0;
+		}
+		.toTopfk .text2{
+			background-position: 0 -55px;
+		}
+	</style>
+	<script src="js/lbtu1.js"></script>
+	<script src="js/lbtu2.js"></script>
+	<script src="js/lblis.js"></script>
+	<script src="js/byrx.js"></script>
+</head>
+<body>
+	<div id="box">
+	<!-- 登录部分 -->
+		<div class="adiv">
+			<div class="odivC">
+				<div class="odivL">
+					<ul class="odiv-lis">
+						<li class="odiv-list">
+							<a class="odiv-l-a">收藏</a>
+						</li>
+						<li class="odiv-list">
+							<a class="odiv-l-a" href="https://www.360.cn/">360官网</a>
+						</li>
+						<li class="odiv-list">
+							<a class="odiv-l-a" href="https://life.360.cn/">360智慧生活</a>
+						</li>
+					</ul>
+				</div>
+				<div class="odivR">
+					<div class="login">
+						<button name="login">登录</button>
+					</div>
+					<div class="register">
+						<button name="register">注册</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 登录部分end -->
+	<!-- 1.导航部分 -->
+		<div class="box1 clearFloat">
+			<div class="box1-1 clearFloat">
+				<div class="div1">
+					<img src="img/1/loge.gif" alt="图片加载失败" />
+					<div class="div1-1">商品分类</div>
+				</div>
+				<div class="div2">
+					<div class="sousuo">
+						<div class="ss1">
+							<form action="" class="ssf">
+								<input type="text" placeholder="百货" class="ssi1"/>
+								<input type="button" value="搜索" class="ssi2"/>
+							</form>
+							<p class="ssp">
+								<a href="###">连衣裙</a><span>|</span>
+								<a href="###">短外套</a><span>|</span>
+								<a href="###">马丁靴</a><span>|</span>
+								<a href="###">羽绒服</a><span>|</span>
+								<a href="###">呢大衣</a><span>|</span>
+								<a href="###">毛衣</a><span>|</span>
+								<a href="###">阔腿裤</a><span>|</span>
+								<a href="###">大码女装</a><span>|</span>
+								<a href="###">男装</a>
+							</p>
+						</div>
+					</div>
+					<div class="div2-2"><img src="img/1/logo1.jpg" alt="图片加载失败" /></div>
+					<div class="daohang">
+						<a href="C:\学习\学习\何金洋的网页\HJY360/index.html#box" class="dha1">首页</a>
+						<a href="C:\学习\学习\何金洋的网页\HJY360/remainvzhuang.html">女装</a>
+						<a href="###" class="dha3">男装</a>
+						<a href="###" class="dha4">百货</a>
+						<a href="###" class="dha5">女鞋</a>
+						<a href="###" class="dha6">男鞋</a>
+						<a href="###" class="dha7">内衣</a>
+						<a href="###" class="dha8">箱包</a>
+						<a href="###" class="dha9">9块9</a>
+						<a href="###" class="dha10"><span>优惠劵</span><div class="dhdiv"><img src="img/1/yhj.gif" alt=""></div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	<!-- 1.导航部分end -->
+	<!-- 2.楼层部分 -->
+		<div id="banner">	
+			<div class="box2">
+			<!-- 2-1.轮播图 -->
+				<div class="diva">
+					<!-- 固定定位 -->
+						<div id="gdcd1">
+							<ul id="gdList">
+								<li class="gdLis1 gdLis">
+									<a href="#divb">精选好货<span>1F</span></a>
+								</li>
+								<li class="gdLis2 gdLis">
+									<a href="#divc">大牌特惠<span>2F</span></a>
+								</li>
+								<li class="gdLis3 gdLis">
+									<a href="#divd">还没逛够<span>3F</span></a>
+								</li>
+							</ul>
+						</div>
+						<div id="gdTop">
+							<div class="toTopfk">
+								<a href="#box" class="toToptu">
+									<span class="text1">顶部</span>
+								</a>
+							</div>
+							<div class="toTopfk">
+								<a href="#" class="fankui">
+									<span class="text2">反馈</span>
+								</a>
+							</div>
+						</div>
+					<!-- 固定定位end -->
+					<div class="diva-1">
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">女装</a><span>/</span>
+								<a href="###">男装</a><span>/</span>
+								<a href="###">内衣</a><span>/</span>
+								<a href="###">连衣裙</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd1">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>女装</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">女装新品</a><span>|</span>
+												<a href="#" class="divd-a2">牛仔外套</a><span>|</span>
+												<a href="#">T恤</a><span>|</span>
+												<a href="#">套装</a><span>|</span>
+												<a href="#">打底</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">大码女装</a><span>|</span>
+												<a href="#" class="divd-a2">外套</a><span>|</span>
+												<a href="#">半身群</a><span>|</span>
+												<a href="#">小西装</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">阔腿裤</a><span>|</span>
+												<a href="#">雪纺衫</a><span>|</span>
+												<a href="#">蕾丝裙</a><span>|</span>
+												<a href="#" class="divd-a2">碎花裙</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">休闲裤</a><span>|</span>
+												<a href="#">毛衣</a><span>|</span>
+												<a href="#" class="divd-a2">字母T恤</a><span>|</span>
+												<a href="#">韩系</a><span>|</span>
+												<a href="#">日系</a>
+											</p>
+										</li>
+										<li>
+											<h4>内衣</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">新品文胸</a><span>|</span>
+												<a href="#">无痕</a><span>|</span>
+												<a href="#">轻薄</a><span>|</span>
+												<a href="#" class="divd-a2">超聚拢</a><span>|</span>
+												<a href="#">大杯</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">家居服</a><span>|</span>
+												<a href="#">睡衣套装</a><span>|</span>
+												<a href="#">真丝睡衣</a><span>|</span>
+												<a href="#" class="divd-a2">情侣睡衣</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">女士内裤</a><span>|</span>
+												<a href="#" class="divd-a2">男士内裤</a><span>|</span>
+												<a href="#">防走光</a><span>|</span>
+												<a href="#" class="divd-a2">套盒内裤</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">隐形胸贴</a><span>|</span>
+												<a href="#" class="divd-a2">运动文胸</a><span>|</span>
+												<a href="#" class="divd-a2">男士背心</a><span>|</span>
+												<a href="#">性感睡裙</a>
+											</p>
+										</li>
+										<li>
+											<h4>男装</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">男装新品</a><span>|</span>
+												<a href="#" class="divd-a2">男士外套</a><span>|</span>
+												<a href="#">T恤</a><span>|</span>
+												<a href="#" class="divd-a2">夹克</a><span>|</span>
+												<a href="#" class="divd-a2">卫衣</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">棒球服</a><span>|</span>
+												<a href="#" class="divd-a2">潮牌</a><span>|</span>
+												<a href="#" class="divd-a2">卫衣</a><span>|</span>
+												<a href="#">西装</a><span>|</span>
+												<a href="#">休闲衰装</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">休闲裤</a><span>|</span>
+												<a href="#" class="divd-a2">运动裤</a><span>|</span>
+												<a href="#">短裤</a><span>|</span>
+												<a href="#">大码男装</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">牛仔衬衫</a><span>|</span>
+												<a href="#">商务男装</a><span>|</span>
+												<a href="#" class="divd-a1">牛仔外套</a><span>|</span>
+												<a href="#">风衣</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">太平乌</a><span>|</span>
+												<a href="#" class="divd-a2">韩都衣舍</a><span>|</span>
+												<a href="#" class="divd-a2">初语</a><span>|</span>
+												<a href="#">百家好</a><span>|</span>
+												<a href="#" class="divd-a2">哥弟</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">初语</a><span>|</span>
+												<a href="#">钱夫人</a><span>|</span>
+												<a href="#" class="divd-a2">糖力</a><span>|</span>
+												<a href="#" class="divd-a2">维多利亚的秘密</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">爰慕</a><span>|</span>
+												<a href="#" class="divd-a2">古今</a><span>|</span>
+												<a href="#">骆驼</a><span>|</span>
+												<a href="#">七匹狼</a><span>|</span>
+												<a href="#" class="divd-a2">海澜之家</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">劲霸</a><span>|</span>
+												<a href="#" class="divd-a1">杰克琼斯</a><span>|</span>
+												<a href="#">马克华菲</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-1.jpg" alt=""></a>
+											<div class="zzc"></div>		
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl1-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl1-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">女鞋</a><span>/</span>
+								<a href="###">男鞋</a><span>/</span>
+								<a href="###">箱包</a><span>/</span>
+								<a href="###">女包</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd2">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>女鞋</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">帆布鞋</a><span>|</span>
+												<a href="#" class="divd-a1">高跟鞋</a><span>|</span>
+												<a href="#" class="divd-a2">中跟</a><span>|</span>
+												<a href="#">新品</a><span>|</span>
+												<a href="#">松糕厚底</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">休闲鞋</a><span>|</span>
+												<a href="#">坡跟鞋</a><span>|</span>
+												<a href="#">沙滩鞋</a><span>|</span>
+												<a href="#" class="divd-a2">家居拖鞋</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">小白鞋</a><span>|</span>
+												<a href="#" class="divd-a2">内增高</a><span>|</span>
+												<a href="#">雨鞋</a><span>|</span>
+												<a href="#">鱼嘴单鞋</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">高帮鞋</a><span>|</span>
+												<a href="#">一脚蹬</a><span>|</span>
+												<a href="#">婚鞋</a><span>|</span>
+												<a href="#">凉鞋</a>
+											</p>
+										</li>
+										<li>
+											<h4>箱包</h4>
+											<p class="clearFloat">
+												<a href="#">当季流行</a><span>|</span>
+												<a href="#" class="divd-a2">女包</a><span>|</span>
+												<a href="#">男包</a><span>|</span>
+												<a href="#">双肩包</a><span>|</span>
+												<a href="#">旅行箱</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">小方包</a><span>|</span>
+												<a href="#" class="divd-a2">单肩包</a><span>|</span>
+												<a href="#">钱包</a><span>|</span>
+												<a href="#">链条包</a><span>|</span>
+												<a href="#" class="divd-a2">卡包</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">斜跨包</a><span>|</span>
+												<a href="#">马鞍包</a><span>|</span>
+												<a href="#" class="divd-a2">机车包</a><span>|</span>
+												<a href="#">子母包</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">万向轮</a><span>|</span>
+												<a href="#" class="divd-a2">子母箱</a>
+											</p>
+										</li>
+										<li>
+											<h4>男鞋</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">冬季新</a><span>|</span>
+												<a href="#">运动风</a><span>|</span>
+												<a href="#">休闲鞋</a><span>|</span>
+												<a href="#" class="divd-a2">帆布鞋</a><span>|</span>
+												<a href="#">板鞋</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">网鞋</a><span>|</span>
+												<a href="#" class="divd-a2">豆豆鞋</a><span>|</span>
+												<a href="#">商务休闲</a><span>|</span>
+												<a href="#">正装鞋</a><span>|</span>
+												<a href="#" class="divd-a2">户外</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">增高鞋</a><span>|</span>
+												<a href="#" class="divd-a2">帆布鞋</a><span>|</span>
+												<a href="#">低帮鞋</a><span>|</span>
+												<a href="#">凉鞋</a><span>|</span>
+												<a href="#">凉拖</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">家居拖鞋</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">Belle</a><span>|</span>
+												<a href="#">天美意</a><span>|</span>
+												<a href="#">CHARLES&KEITH</a><span>|</span>
+												<a href="#" class="divd-a2">星期六</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">卡洛驰</a><span>|</span>
+												<a href="#">GXG</a><span>|</span>
+												<a href="#" class="divd-a2">Clanks</a><span>|</span>
+												<a href="#">kipling</a><span>|</span>
+												<a href="#">COACH</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">TATA</a><span>|</span>
+												<a href="#">crocs</a><span>|</span>
+												<a href="#" class="divd-a2">奥康</a><span>|</span>
+												<a href="#">红蜻蜒</a><span>|</span>
+												<a href="#">CAMEL</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">稻草人</a><span>|</span>
+												<a href="#">ELLE</a><span>|</span>
+												<a href="#">暇步士</a><span>|</span>
+												<a href="#" class="divd-a1">COACH/蔻驰</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl2-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">童装</a><span>/</span>
+								<a href="###">玩具</a><span>/</span>
+								<a href="###">早教</a><span>/</span>
+								<a href="###">孕产</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd3">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>童装</h4>
+											<p class="clearFloat">
+												<a href="#">童装最新</a><span>|</span>
+												<a href="#" class="divd-a2">连衣裙</a><span>|</span>
+												<a href="#">演出服</a><span>|</span>
+												<a href="#">男女外套</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">帽子</a><span>|</span>
+												<a href="#" class="divd-a2">亲子装</a><span>|</span>
+												<a href="#">裤子</a><span>|</span>
+												<a href="#">童鞋新款</a><span>|</span>
+												<a href="#" class="divd-a2">运动鞋</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">学步鞋</a><span>|</span>
+												<a href="#" class="divd-a1">背心吊带</a><span>|</span>
+												<a href="#" class="divd-a2">爬服</a><span>|</span>
+												<a href="#">外罩</a><span>|</span>
+												<a href="#" class="divd-a1">防晒服</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">睡袋</a><span>|</span>
+												<a href="#">婴儿内衣</a><span>|</span>
+												<a href="#">唐装</a>
+											</p>
+										</li>
+										<li>
+											<h4>孕产</h4>
+											<p class="clearFloat">
+												<a href="#">孕妇装</a><span>|</span>
+												<a href="#">家居服</a><span>|</span>
+												<a href="#" class="divd-a2">哺乳文胸</a><span>|</span>
+												<a href="#">防辐射</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">孕妇内裤</a><span>|</span>
+												<a href="#" class="divd-a2">吸奶器</a><span>|</span>
+												<a href="#">湿巾</a><span>|</span>
+												<a href="#" class="divd-a2">待产包</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">婴儿床</a><span>|</span>
+												<a href="#">隔尿垫</a><span>|</span>
+												<a href="#">产后塑身</a><span>|</span>
+												<a href="#">月子服</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">孕期护肤</a><span>|</span>
+												<a href="#">防溢乳垫</a><span>|</span>
+												<a href="#" class="divd-a2">哺乳枕</a>
+											</p>
+										</li>
+										<li>
+											<h4>玩具</h4>
+											<p class="clearFloat">
+												<a href="#">玩具</a><span>|</span>
+												<a href="#">积木</a><span>|</span>
+												<a href="#" class="divd-a2">早教</a><span>|</span>
+												<a href="#">毛绒娃娃</a><span>|</span>
+												<a href="#">遥控车</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">儿童自行车</a><span>|</span>
+												<a href="#">电动童车</a><span>|</span>
+												<a href="#">过家家玩具</a><span>|</span>
+												<a href="#">描红本</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">贴纸</a><span>|</span>
+												<a href="#">电子琴</a><span>|</span>
+												<a href="#">动漫玩具</a><span>|</span>
+												<a href="#" class="divd-a2">健身架</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">故事机</a><span>|</span>
+												<a href="#" class="divd-a2">蜡笔</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">迪士尼</a><span>|</span>
+												<a href="#">Hello Kitty</a><span>|</span>
+												<a href="#" class="divd-a2">乐高</a><span>|</span>
+												<a href="#">小鲁班</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">猫贝乐</a><span>|</span>
+												<a href="#" class="divd-a2">十月妈咪</a><span>|</span>
+												<a href="#">十月结晶</a><span>|</span>
+												<a href="#" class="divd-a2">贝因美</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">美赞臣</a><span>|</span>
+												<a href="#">合生元</a><span>|</span>
+												<a href="#" class="divd-a2">亨氏</a><span>|</span>
+												<a href="#">美素佳儿</a><span>|</span>
+												<a href="#"日康></a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2"妈咪宝贝></a><span>|</span>
+												<a href="#">贝亲</a><span>|</span>
+												<a href="#" class="divd-a1">美德乐</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl3-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl3-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">数码</a><span>/</span>
+								<a href="###">单反</a><span>/</span>
+								<a href="###">手机</a><span>/</span>
+								<a href="###">电脑</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd4">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>数码</h4>
+											<p class="clearFloat">
+												<a href="#">移动电源</a><span>|</span>
+												<a href="#" class="divd-a2">穿戴设备</a><span>|</span>
+												<a href="#">数码相机</a><span>|</span>
+												<a href="#">单反相机</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">数据线</a><span>|</span>
+												<a href="#">小音箱</a><span>|</span>
+												<a href="#" class="divd-a2">游戏机</a><span>|</span>
+												<a href="#">游戏手柄</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">微单</a><span>|</span>
+												<a href="#">三脚架</a><span>|</span>
+												<a href="#">连接线</a><span>|</span>
+												<a href="#" class="divd-a2">拍立得</a><span>|</span>
+												<a href="#">器材</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">影棚设备</a><span>|</span>
+												<a href="#" class="divd-a2">镜头</a><span>|</span>
+												<a href="#">相机包</a><span>|</span>
+												<a href="#" class="divd-a2">智能手环</a>
+											</p>
+										</li>
+										<li>
+											<h4>电脑</h4>
+											<p class="clearFloat">
+												<a href="#">笔记本</a><span>|</span>
+												<a href="#" class="divd-a2">平板</a><span>|</span>
+												<a href="#">键鼠套装</a><span>|</span>
+												<a href="#">台式机</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">一体机</a><span>|</span>
+												<a href="#">摄像头</a><span>|</span>
+												<a href="#" class="divd-a2">路由器</a><span>|</span>
+												<a href="#">无线鼠标</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">平板电脑保护套</a><span>|</span>
+												<a href="#">显示器</a><span>|</span>
+												<a href="#">游戏台式机</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">游戏本</a><span>|</span>
+												<a href="#">硬盘</a><span>|</span>
+												<a href="#">CPU</a><span>|</span>
+												<a href="#" class="divd-a2"显卡></a><span>|</span>
+												<a href="#">电源</a>
+											</p>
+										</li>
+										<li>
+											<h4>手机</h4>
+											<p class="clearFloat">
+												<a href="#">iPhone 7</a><span>|</span>
+												<a href="#">iPhone 6 plus</a><span>|</span>
+												<a href="#" class="divd-a2">华为手机</a><span>|</span>
+												<a href="#">荣耀</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">三星</a><span>|</span>
+												<a href="#" class="divd-a2">小米</a><span>|</span>
+												<a href="#">OPPO</a><span>|</span>
+												<a href="#">vivo</a><span>|</span>
+												<a href="#">手机壳/手机套</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">手机贴膜</a><span>|</span>
+												<a href="#"手机存储卡></a><span>|</span>
+												<a href="#">手机饰品</a><span>|</span>
+												<a href="#" class="divd-a2">耳机</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">苹果周边</a><span>|</span>
+												<a href="#">数据线</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">iPhone</a><span>|</span>
+												<a href="#">小米</a><span>|</span>
+												<a href="#" class="divd-a2">华为</a><span>|</span>
+												<a href="#">联想</a><span>|</span>
+												<a href="#">华硕</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">Sony</a><span>|</span>
+												<a href="#">TP-LINK</a><span>|</span>
+												<a href="#" class="divd-a2">Canon</a><span>|</span>
+												<a href="#">DELL</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">ThinkPad</a><span>|</span>
+												<a href="#" class="divd-a2">微星</a><span>|</span>
+												<a href="#">宏碁</a><span>|</span>
+												<a href="#">雷蛇</a><span>|</span>
+												<a href="#"OPPO></a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">VIVO</a><span>|</span>
+												<a href="#">惠普</a><span>|</span>
+												<a href="#">神舟</a><span>|</span>
+												<a href="#">魅族</a><span>|</span>
+												<a href="#" class="divd-a1">360手机</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl4-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl4-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">美妆</a><span>/</span>
+								<a href="###">防晒</a><span>/</span>
+								<a href="###">洗护</a><span>/</span>
+								<a href="###">保健品</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd5">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>美妆</h4>
+											<p class="clearFloat">
+												<a href="#">面膜</a><span>|</span>
+												<a href="#" class="divd-a2">防晒</a><span>|</span>
+												<a href="#">眼霜</a><span>|</span>
+												<a href="#">乳液</a><span>|</span>
+												<a href="#">精华</a><span>|</span>
+												<a href="#">卸妆</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">隔离</a><span>|</span>
+												<a href="#">唇膏</a><span>|</span>
+												<a href="#">腮红</a><span>|</span>
+												<a href="#" class="divd-a2">香水</a><span>|</span>
+												<a href="#">睫毛膏</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">眼影</a><span>|</span>
+												<a href="#" class="divd-a2">遮瑕膏</a><span>|</span>
+												<a href="#">散粉</a><span>|</span>
+												<a href="#">眼膜</a><span>|</span>
+												<a href="#">化妆棉</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">眉笔</a><span>|</span>
+												<a href="#">口红</a><span>|</span>
+												<a href="#">美甲</a><span>|</span>
+												<a href="#" class="divd-a2">底妆</a>
+											</p>
+										</li>
+										<li>
+											<h4>保健品</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">B族维生素</a><span>|</span>
+												<a href="#">多维</a><span>|</span>
+												<a href="#">葡萄籽</a><span>|</span>
+												<a href="#">蜂产品</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">维生索C</a><span>|</span>
+												<a href="#" class="divd-a2">钙</a><span>|</span>
+												<a href="#">大豆异黄酮</a><span>|</span>
+												<a href="#">DHA</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">胶原蛋白</a><span>|</span>
+												<a href="#">乳清蛋白</a><span>|</span>
+												<a href="#" class="divd-a2">阿胶</a><span>|</span>
+												<a href="#">参</a><span>|</span>
+												<a href="#">益生菌</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">番茄红索</a><span>|</span>
+												<a href="#" class="divd-a2">叶酸</a><span>|</span>
+												<a href="#">芦荟</a>
+											</p>
+										</li>
+										<li>
+											<h4>洗护</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">洗发水</a><span>|</span>
+												<a href="#">护发素</a><span>|</span>
+												<a href="#">染发膏</a><span>|</span>
+												<a href="#" class="divd-a2">沐浴露</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">身体乳</a><span>|</span>
+												<a href="#">牙膏</a><span>|</span>
+												<a href="#">牙刷</a><span>|</span>
+												<a href="#">漱口水</a><span>|</span>
+												<a href="#" class="divd-a2">卫生巾</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">洗手液</a><span>|</span>
+												<a href="#" class="divd-a2">私处护理</a><span>|</span>
+												<a href="#">发膜</a><span>|</span>
+												<a href="#" class="divd-a2">脱毛奇</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">消毒液</a><span>|</span>
+												<a href="#" class="divd-a2">洗衣液</a><span>|</span>
+												<a href="#">香皂</a><span>|</span>
+												<a href="#" class="divd-a2">精油</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">雅诗兰黛</a><span>|</span>
+												<a href="#">兰蔻</a><span>|</span>
+												<a href="#">SK-II</a><span>|</span>
+												<a href="#" class="divd-a2">资生堂</a><span>|</span>
+												<a href="#">茱莉蔻</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">海蓝之谜</a><span>|</span>
+												<a href="#">施华蔻</a><span>|</span>
+												<a href="#">雅漾</a><span>|</span>
+												<a href="#" class="divd-a2">DHC</a><span>|</span>
+												<a href="#">桃花姬</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">兰芝</a><span>|</span>
+												<a href="#">碧柔</a><span>|</span>
+												<a href="#">海飞丝</a><span>|</span>
+												<a href="#">卡姿兰</a><span>|</span>
+												<a href="#" class="divd-a2">霸王</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">汤臣倍健</a><span>|</span>
+												<a href="#">善存</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl5-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl5-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">眼镜</a><span>/</span>
+								<a href="###">太阳镜</a><span>/</span>
+								<a href="###">配饰</a><span>/</span>
+								<a href="###">百货</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd6">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>眼镜</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">太阳镜</a><span>|</span>
+												<a href="#"><眼镜架/a><span>|</span>
+												<a href="#">3D眼镜</a><span>|</span>
+												<a href="#">眼镜片</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">眼镜配件</a><span>|</span>
+												<a href="#">老花镜</a><span>|</span>
+												<a href="#">司机镜</a><span>|</span>
+												<a href="#" class="divd-a2">儿童太阳镜</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">沙滩镜</a><span>|</span>
+												<a href="#">全框眼镜</a><span>|</span>
+												<a href="#" class="divd-a2">防滑耳套</a><span>|</span>
+												<a href="#" class="divd-a2">耳勾</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">偏光夹片</a><span>|</span>
+												<a href="#">钛架</a><span>|</span>
+												<a href="#">眼镜腿</a>
+											</p>
+										</li>
+										<li>
+											<h4>百货</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">收纳箱</a><span>|</span>
+												<a href="#">驱蚊</a><span>|</span>
+												<a href="#">雨伞</a><span>|</span>
+												<a href="#">净化除味</a><span>|</span>
+												<a href="#" class="divd-a2">挂烫机</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">花洒</a><span>|</span>
+												<a href="#">镜子</a><span>|</span>
+												<a href="#" class="divd-a2">防滑垫</a><span>|</span>
+												<a href="#">梳子</a><span>|</span>
+												<a href="#">一次性用品 </a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">拖鞋</a><span>|</span>
+												<a href="#" class="divd-a2">口罩</a>
+											</p>
+										</li>
+										<li>
+											<h4>珠宝配饰</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">帽子</a><span>|</span>
+												<a href="#">发饰</a><span>|</span>
+												<a href="#">围巾</a><span>|</span>
+												<a href="#" class="divd-a2">腕表</a><span>|</span>
+												<a href="#">黄金首饰</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">琥珀蜜蜡</a><span>|</span>
+												<a href="#">翡翠</a><span>|</span>
+												<a href="#" class="divd-a2">钻戒</a><span>|</span>
+												<a href="#"珍珠></a><span>|</span>
+												<a href="#">玉器</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">婚戒</a><span>|</span>
+												<a href="#">吊坠</a><span>|</span>
+												<a href="#">裸钻</a><span>|</span>
+												<a href="#" class="divd-a2">珍珠首饰</a><span>|</span>
+												<a href="#">黑珍珠</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">蜜蜡</a><span>|</span>
+												<a href="#">千足金</a><span>|</span>
+												<a href="#" class="divd-a2">琥珀</a><span>|</span>
+												<a href="#">铂金</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">暴龙</a><span>|</span>
+												<a href="#">宝岛眼镜</a><span>|</span>
+												<a href="#">雷朋</a><span>|</span>
+												<a href="#">依视路</a><span>|</span>
+												<a href="#" class="divd-a2">周生生</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">周大福</a><span>|</span>
+												<a href="#" class="divd-a2">施华洛世奇</a><span>|</span>
+												<a href="#">周大生</a><span>|</span>
+												<a href="#">千叶珠宝</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">六福珠宝</a><span>|</span>
+												<a href="#">海盗船</a><span>|</span>
+												<a href="#">派丽蒙</a><span>|</span>
+												<a href="#" class="divd-a2">CASIO</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl6-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl6-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">运动</a><span>/</span>
+								<a href="###">户外</a><span>/</span>
+								<a href="###">零食</a><span>/</span>
+								<a href="###">干果</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd7">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>运动</h4>
+											<p class="clearFloat">
+												<a href="#">运动鞋</a><span>|</span>
+												<a href="#" class="divd-a2">运动服</a><span>|</span>
+												<a href="#">运动配饰</a><span>|</span>
+												<a href="#">健身器材</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">跑步机</a><span>|</span>
+												<a href="#" class="divd-a2">瑜伽</a><span>|</span>
+												<a href="#">舞蹈用品</a><span>|</span>
+												<a href="#">乒乓球</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2"></a>羽毛球<span>|</span>
+												<a href="#">篮球</a><span>|</span>
+												<a href="#">足球</a>
+											</p>
+										</li>
+										<li>
+											<h4>零食</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">山核桃</a><span>|</span>
+												<a href="#">糖果</a><span>|</span>
+												<a href="#">夏威夷果</a><span>|</span>
+												<a href="#">开心果</a><span>|</span>
+												<a href="#">辣条</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">饼干</a><span>|</span>
+												<a href="#">糕点</a><span>|</span>
+												<a href="#" class="divd-a2">豆子</a><span>|</span>
+												<a href="#">瓜子</a><span>|</span>
+												<a href="#">鱼干</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">膨化食品</a>
+											</p>
+										</li>
+										<li>
+											<h4>户外</h4>
+											<p class="clearFloat">
+												<a href="#">冲锋衣</a><span>|</span>
+												<a href="#">钓竿</a><span>|</span>
+												<a href="#">户外鞋</a><span>|</span>
+												<a href="#" class="divd-a2">睡袋</a><span>|</span>
+												<a href="#">皮肤衣</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">速干衣</a><span>|</span>
+												<a href="#" class="divd-a2">帐篷</a><span>|</span>
+												<a href="#">望远镜</a><span>|</span>
+												<a href="#" class="divd-a2">手电筒</a><span>|</span>
+												<a href="#">公路车</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">骑行装备</a><span>|</span>
+												<a href="#">军迷用品</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">北面</a><span>|</span>
+												<a href="#">JACKWOLFSKIN</a><span>|</span>
+												<a href="#" class="divd-a2">Adidas</a><span>|</span>
+												<a href="#">NIKE</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">探路者</a><span>|</span>
+												<a href="#">亿健</a><span>|</span>
+												<a href="#">捷安特</a><span>|</span>
+												<a href="#">361</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">New Balance</a><span>|</span>
+												<a href="#">李宁</a><span>|</span>
+												<a href="#">安踏</a><span>|</span>
+												<a href="#" class="divd-a2">特步</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl2-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl7-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl7-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">美食</a><span>/</span>
+								<a href="###">生鲜</a><span>/</span>
+								<a href="###">水果</a><span>/</span>
+								<a href="###">茶叶</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd8">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>美食</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">粽子</a><span>|</span>
+												<a href="#">奶茶</a><span>|</span>
+												<a href="#">需蜡</a><span>|</span>
+												<a href="#" class="divd-a2">酸奶</a><span>|</span>
+												<a href="#">麦片</a><span>|</span>
+												<a href="#" class="divd-a2">咖啡</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">牛奶</a><span>|</span>
+												<a href="#">果汁</a><span>|</span>
+												<a href="#" class="divd-a2">葡萄酒</a><span>|</span>
+												<a href="#">面食</a><span>|</span>
+												<a href="#">饮料</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">干货</a>
+											</p>
+										</li>
+										<li>
+											<h4>水果</h4>
+											<p class="clearFloat">
+												<a href="#">奇异果</a><span>|</span>
+												<a href="#">车厘子</a><span>|</span>
+												<a href="#" class="divd-a2">芒果</a><span>|</span>
+												<a href="#">榴莲</a><span>|</span>
+												<a href="#" class="divd-a2">葡萄</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">橙子</a><span>|</span>
+												<a href="#">蓝莓</a><span>|</span>
+												<a href="#">李子</a><span>|</span>
+												<a href="#">桃子</a><span>|</span>
+												<a href="#" class="divd-a2">樱桃</a><span>|</span>
+												<a href="#">枇杷</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">梨</a><span>|</span>
+												<a href="#" class="divd-a2">苹果</a>
+											</p>
+										</li>
+										<li>
+											<h4>生鲜</h4>
+											<p class="clearFloat">
+												<a href="#">蔬菜</a><span>|</span>
+												<a href="#" class="divd-a2">鱼</a><span>|</span>
+												<a href="#">虾</a><span>|</span>
+												<a href="#">贝类</a><span>|</span>
+												<a href="#">螃蟹</a><span>|</span>
+												<a href="#" class="divd-a2">猪肉</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">牛肉</a><span>|</span>
+												<a href="#">羊肉</a><span>|</span>
+												<a href="#" class="divd-a2">鸡肉</a><span>|</span>
+												<a href="#">蛋类</a><span>|</span>
+												<a hre
+												<a href="#">海参</a><span>|</span>
+												<a href="#">腌菜</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#"class="divd-a2">咸鸭蛋</a><span>|</span>
+												<a href="#" >松花蛋</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">良品铺子</a><span>|</span>
+												<a href="#">百草味</a><span>|</span>
+												<a href="#">百年栗园</a><span>|</span>
+												<a href="#">伊利</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">哈恨达斯</a><span>|</span>
+												<a href="#">花果山</a><span>|</span>
+												<a href="#" class="divd-a2">悠汇园</a><span>|</span>
+												<a href="#">好当家</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">监告</a><span>|</span>
+												<a href="#">獐子岛</a><span>|</span>
+												<a href="#">佳沃</a><span>|</span>
+												<a href="#">大洋世家</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">dole都乐</a><span>|</span>
+												<a href="#" class="divd-a2">御食园</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl8-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl8-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">家纺</a><span>/</span>
+								<a href="###">家饰</a><span>/</span>
+								<a href="###">布艺</a><span>/</span>
+								<a href="###">家具</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd9">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>家纺</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">四件套</a><span>|</span>
+												<a href="#">蚕丝被</a><span>|</span>
+												<a href="#">窗帘</a><span>|</span>
+												<a href="#" class="divd-a2">颈椎枕</a><span>|</span>
+												<a href="#">凉席</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">蚊帐</a><span>|</span>
+												<a href="#">防尘罩</a><span>|</span>
+												<a href="#">毛巾</a><span>|</span>
+												<a href="#" class="divd-a2">拖鞋</a><span>|</span>
+												<a href="#">抱枕</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">桌布</a><span>|</span>
+												<a href="#" class="divd-a2">地毯</a><span>|</span>
+												<a href="#">婚庆用品</a>
+											</p>
+										</li>
+										<li>
+											<h4>家具</h4>
+											<p class="clearFloat">
+												<a href="#">成套家具</a><span>|</span>
+												<a href="#" class="divd-a2">沙发</a><span>|</span>
+												<a href="#">茶几</a><span>|</span>
+												<a href="#">鞋柜</a><span>|</span>
+												<a href="#">床</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">餐桌</a><span>|</span>
+												<a href="#">餐椅</a><span>|</span>
+												<a href="#">电视柜</a><span>|</span>
+												<a href="#" class="divd-a2">衣柜</a><span>|</span>
+												<a href="#">书柜</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">电脑桌</a><span>|</span>
+												<a href="#">简易衣柜</a>
+											</p>
+										</li>
+										<li>
+											<h4>家饰</h4>
+											<p class="clearFloat">
+												<a href="#">壁纸</a><span>|</span>
+												<a href="#">墙贴</a><span>|</span>
+												<a href="#" class="divd-a2">香董炉</a><span>|</span>
+												<a href="#">花瓶</a><span>|</span>
+												<a href="#">十字绣</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">摆件</a><span>|</span>
+												<a href="#">仿真花</a><span>|</span>
+												<a href="#">首饰盒</a><span>|</span>
+												<a href="#" class="divd-a2">闹钟</a><span>|</span>
+												<a href="#">雕刻工艺</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">冰箱贴</a><span>|</span>
+												<a href="#" class="divd-a2">相框</a><span>|</span>
+												<a href="#">多肉植物</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">罗莱家纺</a><span>|</span>
+												<a href="#">富安娜</a><span>|</span>
+												<a href="#" class="divd-a2">博洋家纺</a><span>|</span>
+												<a href="#">北极绒</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">全友家居</a><span>|</span>
+												<a href="#">欧普照明</a><span>|</span>
+												<a href="#" class="divd-a2">九牧</a><span>|</span>
+												<a href="#">奥普</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">洁丽雅</a><span>|</span>
+												<a href="#" class="divd-a2">金号毛巾</a><span>|</span>
+												<a href="#">梦洁家纺</a><span>|</span>
+												<a href="#" class="divd-a2">水品家纺</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl9-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl9-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">家电</a><span>/</span>
+								<a href="###">家装</a><span>/</span>
+								<a href="###">办公</a><span>/</span>
+								<a href="###">海淘</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd10">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>家电</h4>
+											<p class="clearFloat">
+												<a href="#">平板电视</a><span>|</span>
+												<a href="#" class="divd-a2">空调</a><span>|</span>
+												<a href="#">洗衣机</a><span>|</span>
+												<a href="#" class="divd-a2">冰箱</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">厨房电器</a><span>|</span>
+												<a href="#"多媒体音箱></a><span>|</span>
+												<a href="#">家庭影院</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">扫地机器人</a><span>|</span>
+												<a href="#">热水器</a><span>|</span>
+												<a href="#" class="divd-a2">吸尘器</a><span>|</span>
+												<a href="#">饮水机</a>
+											</p>
+										</li>
+										<li>
+											<h4>办公</h4>
+											<p class="clearFloat">
+												<a href="#">投影机</a><span>|</span>
+												<a href="#" class="divd-a2">打印机</a><span>|</span>
+												<a href="#">订书机</a><span>|</span>
+												<a href="#">资料册</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">礼品盒</a><span>|</span>
+												<a href="#">笔记本</a><span>|</span>
+												<a href="#">荧光笔</a><span>|</span>
+												<a href="#">计算器</a><span>|</span>
+												<a href="#" class="divd-a2">便签</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">胶水</a><span>|</span>
+												<a href="#">档案盒</a><span>|</span>
+												<a href="#" class="divd-a2">复印纸</a><span>|</span>
+												<a href="#">中性笔</a>
+											</p>
+										</li>
+										<li>
+											<h4>家装</h4>
+											<p class="clearFloat">
+												<a href="#" class="divd-a2">卫浴家具</a><span>|</span>
+												<a href="#">吊灯</a><span>|</span>
+												<a href="#">家具五金</a><span>|</span>
+												<a href="#">地板</a><span>|</span>
+												<a href="#">墙纸</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">暖气片</a><span>|</span>
+												<a href="#" class="divd-a2">坐便器</a><span>|</span>
+												<a href="#">浴缸</a><span>|</span>
+												<a href="#">沙发</a><span>|</span>
+												<a href="#" class="divd-a2">浴霸</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">锁具</a><span>|</span>
+												<a href="#">楼梯</a><span>|</span>
+												<a href="#">背景墙</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">三星</a><span>|</span>
+												<a href="#">索尼</a><span>|</span>
+												<a href="#">飞利浦</a><span>|</span>
+												<a href="#" class="divd-a2">美的</a><span>|</span>
+												<a href="#">格力</a><span>|</span>
+												<a href="#">LG</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">海尔</a><span>|</span>
+												<a href="#" class="divd-a2">西门子</a><span>|</span>
+												<a href="#">松下</a><span>|</span>
+												<a href="#"科勒></a><span>|</span>
+												<a href="#">立邦</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">得力</a><span>|</span>
+												<a href="#">晨光</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl10-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl10-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="a1-p1">
+							<span class="a1sp">
+								<a href="###">特价</a><span>/</span>
+								<a href="###">海淘</a><span>/</span>
+								<a href="###">领券专享</a>
+							</span>
+							<span class="yj">></span>
+							<div class="ejcd clearFloat ejcd11">
+								<div class="ejcdLeft clearFloat fl">
+									<ul class="ejcdList1 clearFloat">
+										<li>
+											<h4>优惠好货</h4>
+											<p class="clearFloat">
+												<a href="#">半身裙</a><span>|</span>
+												<a href="#" class="divd-a2">内裤</a><span>|</span>
+												<a href="#">休闲裤</a><span>|</span>
+												<a href="#" class="divd-a2">家居鞋</a><span>|</span>
+												<a href="#">双肩包</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">防晒</a><span>|</span>
+												<a href="#" class="divd-a2">收纳</a><span>|</span>
+												<a href="#">四件套</a><span>|</span>
+												<a href="#">运动鞋</a><span>|</span>
+												<a href="#" class="divd-a2">垂钓</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">发饰</a><span>|</span>
+												<a href="#">明星同款墨镜</a>
+											</p>
+										</li>
+										<li>
+											<h4>汽车用品</h4>
+											<p class="clearFloat">
+												<a href="#">专用脚垫</a><span>|</span>
+												<a href="#">同用坐垫</a><span>|</span>
+												<a href="#" class="divd-a2">行车记录仪</a><span>|</span>
+												<a href="#">车用钥匙</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">汽车装饰贴</a><span>|</span>
+												<a href="#" class="divd-a2">车挂</a><span>|</span>
+												<a href="#">车摆件</a><span>|</span>
+												<a href="#">雨眉</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">HID疝气灯</a><span>|</span>
+												<a href="#">汽车灯泡</a>
+											</p>
+										</li>
+										<li>
+											<h4>生活</h4>
+											<p class="clearFloat">
+												<a href="#">家政</a><span>|</span>
+												<a href="#" class="divd-a2">充值</a><span>|</span>
+												<a href="#">签证代办</a><span>|</span>
+												<a href="#">手机缴费</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">优惠券</a><span>|</span>
+												<a href="#">婚礼策划</a><span>|</span>
+												<a href="#">保健</a><span>|</span>
+												<a href="#" class="divd-a2">搬家</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">装修设计</a><span>|</span>
+												<a href="#" class="divd-a2">鲜花快递</a>
+											</p>
+										</li>
+										<li>
+											<h4>精选大牌</h4>
+											<p class="clearFloat">
+												<a href="#">ABC</a><span>|</span>
+												<a href="#" class="divd-a2">花王</a><span>|</span>
+												<a href="#">维达</a><span>|</span>
+												<a href="#" class="divd-a2">农夫山泉</a><span>|</span>
+												<a href="#">滴露</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">杜蕾斯</a><span>|</span>
+												<a href="#">金号毛巾</a><span>|</span>
+												<a href="#" class="divd-a2">蓝月亮</a><span>|</span>
+												<a href="#">玉兰油</a>
+											</p>
+											<p class="clearFloat">
+												<a href="#">金纺</a><span>|</span>
+												<a href="#">小狗吸尘器</a><span>|</span>
+												<a href="#">金龙鱼</a>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="ejcdRight clearFloat fr">
+									<ul class="ejcdList2 clearFloat">
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-1.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-2.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-3.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-4.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-5.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-6.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-7.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-8.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+										<li>
+											<a href="#"><img src="img/2/a/ejcdRl11-9.jpg" alt=""></a>
+											<div class="zzc"></div>
+										</li>
+									</ul>
+									<h3 class="ejcdH3"></h3>
+									<div class="rmhd">
+										<a href="#"><img src="img/2/a/ejcdRl11-10.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="diva-2">
+						<div class="aa1-1">
+							<div class="aa1-left"></div>
+							<div class="aa1-right"></div>
+						</div>
+						<ul class="dd">
+							<li style="background:#ff5550"></li>
+							<li></li>
+							<li style="margin-right:0"></li>
+						</ul>
+						<ul class="lbt-lis fl">
+							<li class="aa1" style="display:block;">
+								<div class="aa1-2">
+									<h4 class="aa12-h4">羽绒服</h4>
+									<p class="aa12-p">新品热卖</p>
+								</div>
+							</li>
+							<li class="aa1 aaa1">
+								<div class="aa1-2">
+									<h4 class="aa12-h4">连衣裙</h4>
+									<p class="aa12-p">全场热卖</p>
+								</div>
+							</li>
+							<li class="aa1 aaa2">
+								<div class="aa1-2">
+									<h4 class="aa12-h4">西装外套</h4>
+									<p class="aa12-p">新品特价</p>
+								</div>
+							</li>
+						</ul>						<div class="aa2">
+							<div class="aa2-1 aa2-11">
+								<div class="aaa2-1">
+									<h4 class="aaa2-h4">运动鞋</h4>
+									<p class="aaa2-p">品牌特卖</p>
+								</div>
+							</div>
+							<div class="aa2-1 aa2-12">
+								<div class="aaa2-1">
+									<h4 class="aaa2-h4">阔腿裤</h4>
+									<p class="aaa2-p">特价39元起</p>
+								</div>
+							</div>
+							<div class="aa2-2 aa2-3">
+								<h4 class="aa2-h4">早餐机</h4>
+								<p class="aa2-p">优惠不断</p>
+							</div>
+							<div class="aa2-2 aa2-4">
+								<h4 class="aa2-h4">汉服</h4>
+								<p class="aa2-p">天天惊喜低阶</p>
+							</div>
+							<div class="aa2-2 aa2-5">
+								<h4 class="aa2-h4">手机</h4>
+								<p class="aa2-p">每日精选好货</p>
+							</div>
+						</div>
+						<div class="aa3">
+							<ul class="aa33">
+								<li href="###" class="aa3-1"></li>
+								<li href="###" class="aa3-2"></li>
+								<li href="###" class="aa3-1"></li>
+								<li href="###" class="aa3-2"></li>
+								<li href="###" class="aa3-1"></li>
+								<li href="###" class="aa3-2"></li>
+								<li href="###" class="aa3-1"></li>
+								<li href="###" class="aa3-2"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<ul class="gdsc clearFloat">
+					<li>
+						<a href="https://www.tmall.com/?spm=a211oj.20774789.a2226mz.1.767147fcJ8ntlb" target="_block">
+							<img src="img/2/g/tm.png" alt="图片加载失败" />
+							<p class="gdscP">淘宝精品 导购平台</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://gouwu.360.cn/szt//zhongcao.html" target="_block">
+							<img src="img/2/g/hhtj.png" alt="图片加载失败" />
+							<p class="gdscP">天猫超市 一站购齐</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.jd.com/" target="_block">
+							<img src="img/2/g/jd.png" alt="图片加载失败" />
+							<p class="gdscP">京东商城 多块好省</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.suning.com/?utm_source=hao360&utm_medium=gouwu" target="_block">
+							<img src="img/2/g/snyg.png" alt="图片加载失败" />
+							<p class="gdscP">省钱.省时.省心</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.baidu.com/baidu?tn=monline_3_dg&ie=utf-8&wd=%E5%94%AF%E5%93%81%E4%BC%9A" target="_block">
+							<img src="img/2/g/wph.png" alt="图片加载失败" />
+							<p class="gdscP">唯品会</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://chaoshi.tmall.com/?ali_trackid=2:mm_120942881_22348885_194152938:1605010075_271_1139764837&union_lens=lensId:PUB@1579512114@0b0b0e45_0d61_16fc2422ebd_04a0@01;recoveryid:1605010075_271_1139764837&bxsign=tbkxmoDvxfAdtWo0xEELU98elZyreu3poe35E048F6u9qZFWYMmhv80cwLOEwIOQ+kHXYAuSBZjoB043zt1ZbXy5f+GuEMvuczZyQJexnpC8vE=" target="_block">
+							<img src="img/2/g/tmcs.png" alt="图片加载失败" />
+							<p class="gdscP">淘宝热卖 低价精选</p>
+						</a>
+					</li>
+					<li>
+						<a href="http://re.taobao.com/search_ou?refpid=mm_26632323_13476194_53296945&keyword=%E9%9E%8B%E5%8C%85" target="_block">
+							<img src="img/2/g/xb.png" alt="图片加载失败" />
+							<p class="gdscP">大牌鞋包 限时抢购</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://ai.taobao.com/?pid=mm_120942881_22348885_150888751" target="_block">
+							<img src="img/2/g/atb.png" alt="图片加载失败" />
+							<p class="gdscP">好物推荐</p>
+						</a>
+					</li>
+					<li>
+						<a href="https://mall.360.cn/?utm_source=360gw" target="_block">
+							<img src="img/2/g/360sc.png" alt="图片加载失败" />
+							<p class="gdscP">360会员商城</p>
+						</a>
+					</li>
+				</ul>
+			<!-- 2-1轮播图end -->
+			<div class="box2-1">
+			<!-- 2-2精选好货 -->
+				<div id="divb">
+					<div class="divb-1">
+						<div class="divb1-1 fl">
+							<h4 class="divb1-h4 fl">精选好货</h4>
+							<p class="divb1-p fl">淘宝热卖</p>
+						</div>
+						<div class="divb1-2 fr">
+							<a href="####">秋冬女装</a>
+							<span>|</span>
+							<a href="####">秋冬男装</a>
+							<span>|</span>
+							<a href="####">大码</a>
+							<span>|</span>
+							<a href="####">连衣裙</a>
+							<span>|</span>
+							<a href="####">半身裙</a>
+							<span>|</span>
+							<a href="####">打底衫</a>
+							<span>|</span>
+							<a href="####">女裤</a>
+							<span>|</span>
+							<a href="####">男裤</a>
+							<span>|</span>
+							<a href="####">运动鞋</a>
+							<span>|</span>
+							<a href="####">高跟鞋</a>
+							<span>|</span>
+							<a href="####">女包</a>
+							<span>|</span>
+							<a href="####">童装</a>
+							<span>|</span>
+							<a href="####">童鞋</a>
+							<span>|</span>
+							<a href="####">手机</a>
+							<span>|</span>
+							<a href="####">大家电</a>
+							<span>|</span>
+							<a href="####">空调</a>
+							<span>|</span>
+							<a href="####">家居</a>
+						</div>
+					</div>
+					<div class="divb-2">
+						<div class="divb2-1">
+							<div class="divb21-1">
+								<ul class="list1">
+									<li>
+										<a href="####" class="lsa1">剃须刀</a>
+										<a href="####" class="lsa1">女袜</a>
+										<a href="####" class="lsa1">小米手机</a>
+									</li>
+									<li>
+										<a href="####" class="lsa2">鱼缸</a>
+										<a href="####" class="lsa2">香水</a>
+										<a href="####" class="lsa2">雪纺衫</a>
+									</li>
+									<li>
+										<a href="####" class="lsa3">冰箱</a>
+										<a href="####" class="lsa3">男拖鞋</a>
+										<a href="####" class="lsa3">女包</a>
+									</li>
+									<li>
+										<a href="####" class="lsa1">洗面奶</a>
+										<a href="####" class="lsa1">男裤</a>
+										<a href="####" class="lsa1">杯子</a>
+									</li>
+								</ul>
+							</div>
+							<div class="divb21-2">
+								<p class="divb21-p1">led生鲜灯水果灯...</p>
+								<p class="divb21-p2">￥ 39</p>
+								<div class="lcrlb">
+									<img src="img/2/b/left1.png" alt="图片加载失败" class="limg fl" />
+									<img src="img/2/b/center1.png" alt="图片加载失败" class="cimg fl" />
+									<img src="img/2/b/right1.png" alt="图片加载失败" class="rimg fl" />
+								</div>
+							</div>
+						</div>
+						<div class="divb2-2">
+							<div class="divb2-center">
+								<p class="divb2-p1 fl">￥ 72</p>
+								<p class="divb2-p2 fr">销量200件</p>
+							</div>
+						</div>
+						<ul class="divb2-3 clearFloat">
+							<li class="divb23-1 divb23-2 divb23-3">
+								<p class="b23-p"><b>￥ 69</b></p>
+								<img src="img/2/b/01.png" alt="图片加载失败" />
+							</li>
+							<li class="divb23-1 divb23-2 divb23-3">
+								<p class="b23-p"><b>￥ 499</b></p>
+								<img src="img/2/b/02.png" alt="图片加载失败" />
+							</li>
+							<li class="divb23-1 divb23-2">
+								<p class="b23-p"><b>￥ 253</b></p>
+								<img src="img/2/b/03.png" alt="图片加载失败" />
+							</li>
+							<li class="divb23-1 divb23-3">
+								<p class="b23-p"><b>￥ 89</b></p>
+								<img src="img/2/b/04.png" alt="图片加载失败" />
+							</li>
+							<li class="divb23-1 divb23-3">
+								<p class="b23-p"><b>￥ 199</b></p>
+								<img src="img/2/b/05.png" alt="图片加载失败" />
+							</li>
+							<li class="divb23-1">
+								<p class="b23-p"><b>￥ 162</b></p>
+								<img src="img/2/b/06.png" alt="图片加载失败" />
+							</li>
+						</ul>
+					</div>
+					<div class="divb-3">
+						<div class="divb3-1 divb3-4">
+							<p class="b31-p"><b>￥ 316</b></p>
+							<img src="img/2/b/001.png" alt="图片加载失败" class="b3-img"/>
+						</div>
+						<div class="divb3 divb3-4">
+							<p class="b31-p1"><b>￥ 147</b></p>
+							<img src="img/2/b/002.png" alt="图片加载失败" class="b3-img1"/>
+						</div>
+						<div class="divb3 divb3-4">
+							<p class="b31-p1"><b>￥ 88</b></p>
+							<img src="img/2/b/003.png" alt="图片加载失败" class="b3-img1"/>
+						</div>
+						<div class="divb3-2 divb3-3 divb3-4">
+							<p class="b31-p2"><b>￥ 436</b></p>
+							<img src="img/2/b/004.png" alt="图片加载失败" class="b3-img2"/>
+						</div>
+						<div class="divb3-2 divb3-3 divb3-4">
+							<p class="b31-p2"><b>￥ 91</b></p>
+							<img src="img/2/b/005.png" alt="图片加载失败" class="b3-img2"/>
+						</div>
+						<div class="divb3-2 divb3-4">
+							<p class="b31-p2"><b>￥ 400</b></p>
+							<img src="img/2/b/006.png" alt="图片加载失败" class="b3-img2"/>
+						</div>
+					</div>
+				</div>
+			<!-- 2-2精选好货end -->
+			<!-- 2-3本月热销 -->
+				<div id="divc">
+					<div class="divc-1">
+						<div class="divc1-1 fl">
+							<h4 class="divc1-h4">本月热销</h4>
+						</div>
+						<div class="divc1-2 fr">
+							<a href="####">羽绒服</a>
+							<span>|</span>
+							<a href="####">呢外套</a>
+							<span>|</span>
+							<a href="####">毛衣</a>
+							<span>|</span>
+							<a href="####">卫衣裙</a>
+							<span>|</span>
+							<a href="####">老爹裤</a>
+							<span>|</span>
+							<a href="####">直筒裤</a>
+							<span>|</span>
+							<a href="####">打底裤</a>
+							<span>|</span>
+							<a href="####">半身裙</a>
+							<span>|</span>
+							<a href="####">卫衣</a>
+							<span>|</span>
+							<a href="####">短靴</a>
+							<span>|</span>
+							<a href="####">工装</a>
+							<span>|</span>
+							<a href="####">打底衫</a>
+							<span>|</span>
+							<a href="####">真丝女装</a>
+							<span>|</span>
+							<a href="####">阔腿裤</a>
+							<span>|</span>
+							<a href="####">雪地靴</a>
+							<span>|</span>
+							<a href="####" class="c1-a">更多>></a>
+						</div>
+					</div>
+					<ul class="divc-2">
+						<li class="cc1 cc2"></li>
+						<li class="cc1 cc3"></li>
+						<li class="cc1 cc4"></li>
+						<li class="cc1 cc5"></li>
+						<li class="cc1 cc6"></li>
+						<li class="cc1 cc7"></li>
+						<li class="cc1 cc8"></li>
+						<li class="cc1 cc9"></li>
+						<li class="cc1 cc10"></li>
+						<li class="cc1 cc11"></li>
+						<li class="cc1 cc12"></li>
+						<li class="cc1 cc13"></li>
+					</ul>
+				</div>
+			<!-- 2-3本月热销end -->
+			<!-- 2-4还没逛够 -->
+				<div id="divd">
+					<div class="divd1">
+						<div class="divd1-1 fl">还没逛够</div>
+						<div class="divd1-2 fl">
+							<a href="####" class="divd-a1">连衣裙</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">秋冬新品</a>
+							<span>|</span>
+							<a href="####" class="divd-a2">秋冬外套</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">牛仔裤</a>
+							<span>|</span>
+							<a href="####" class="divd-a1">打底衫</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">女鞋</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">配饰</a>
+							<span>|</span>
+							<a href="####" class="divd-a1">运动服</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">面膜</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">小家电</a>
+							<span>|</span>
+							<a href="####" class="divd-a2">电暖气</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">零食</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">咖啡</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">洗发水</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">大家电</a>
+							<span>|</span>
+							<a href="####" class="divd-a2">美妆</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">自拍杆</a>
+							<span>|</span>
+							<a href="####" class="divd-a2">沐浴露</a>
+							<span>|</span>
+							<a href="####" class="divd-a3">牙膏</a>
+						</div>
+					</div>
+					<ul class="divd2">
+						
+					</ul>
+				</div>
+			<!-- 2-4还没逛够end -->
+			<!-- 2-5更多商品 -->
+				<div class="divf">
+					<div class="divf-1 divfirst">
+						<h5 class="divf-h5">女士</h5>
+						<a href="https://ai.taobao.com/search/index.htm?refpid=mm_26632323_13476194_53296945&key=%E8%BF%9E%E8%A1%A3%E8%A3%99&clk1=45b834792f9bcc32c574462ab0ee9d8c" target="_block">
+							<img src="img/2/f/t01667bfad072093cfd.png" alt="图片加载失败" />
+						</a>
+						<ul class="f-ul">
+							<li>
+								<a href="##">上衣</a>
+								<a href="##">裤子</a>
+								<a href="##">裙子</a>
+							</li>
+							<li>
+								<a href="##">连衣裙</a>
+								<a href="##">半身裙</a>
+								<a href="##">职业装</a>
+							</li>
+							<li>
+								<a href="##">女鞋</a>
+								<a href="##">内搭打底</a>
+								<a href="##">女包</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divf-1">
+						<h5 class="divf-h5">男士</h5>
+						<a href="https://ai.taobao.com/search/index.htm?refpid=mm_26632323_13476194_53296945&key=%E5%A4%8F%E8%A3%85%E7%94%B7&clk1=76185f56eacaf42617aca6d25448065f" target="_block">
+							<img src="img/2/f/t013efdfdd99f994c58.png" alt="图片加载失败" />
+						</a>
+						<ul class="f-ul">
+							<li>
+								<a href="##">上衣</a>
+								<a href="##">男裤</a>
+								<a href="##">内搭</a>
+								<a href="##">袜子</a>
+							</li>
+							<li>
+								<a href="##">背心</a>
+								<a href="##">休闲裤</a>
+								<a href="##">牛仔裤</a>
+							</li>
+							<li>
+								<a href="##">男包</a>
+								<a href="##">男鞋</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divf-1">
+						<h5 class="divf-h5">百货</h5>
+						<a href="https://gouwu.360.cn/category/baihuo/%E7%99%BE%E8%B4%A7" target="_block">
+							<img src="img/2/f/t01feebaa6b844e1bda.jpg" alt="图片加载失败" />
+						</a>
+						<ul class="f-ul">
+							<li>
+								<a href="##">收纳箱</a>
+								<a href="##">置物架</a>
+								<a href="##">家纺</a>
+							</li>
+							<li>
+								<a href="##">充电宝</a>
+								<a href="##">垃圾袋</a>
+								<a href="##">手机壳</a>
+							</li>
+							<li>
+								<a href="##">清洁工具</a>
+								<a href="##">餐具</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divf-1">
+						<h5 class="divf-h5">鞋包</h5>
+						<a href="https://ai.taobao.com/search/index.htm?refpid=mm_26632323_13476194_53296945&key=%E8%BF%90%E5%8A%A8%E9%9E%8B&clk1=08067cbbbba45b0bdb25b1a725aa581e" target="_block">
+							<img src="img/2/f/t01e95f31ef858b3775.png" alt="图片加载失败" />
+						</a>
+						<ul class="f-ul">
+							<li>
+								<a href="##">斜挎包</a>
+								<a href="##">手拎包</a>
+								<a href="##">链条包</a>
+							</li>
+							<li>
+								<a href="##">单鞋</a>
+								<a href="##">高跟鞋</a>
+								<a href="##">运动鞋</a>
+							</li>
+							<li>
+								<a href="##">小白鞋</a>
+								<a href="##">小脏鞋</a>
+								<a href="##">帆布鞋</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divf-1">
+						<h5 class="divf-h5">美妆洗护</h5>
+						<a href="https://gouwu.360.cn/category/xihu/%E6%B4%97%E6%8A%A4" target="_block">
+							<img src="img/2/f/t01c3c687595afd18b0.png" alt="图片加载失败" />
+						</a>
+						<ul class="f-ul">
+							<li>
+								<a href="##">洁面</a>
+								<a href="##">爽肤水</a>
+								<a href="##">乳液</a>
+							</li>
+							<li>
+								<a href="##">护肤套装</a>
+								<a href="##">面膜</a>
+								<a href="##">洗护套装</a>
+							</li>
+							<li>
+								<a href="##">沐浴露</a>
+								<a href="##">口红</a>
+								<a href="##">粉底液</a>
+							</li>
+						</ul>
+					</div>
+					<div class="divf-1">
+						<h5 class="divf-h5">运动</h5>
+						<a href="https://gouwu.360.cn/category/yundong/%E8%BF%90%E5%8A%A8" target="_block">
+							<img src="img/2/f/t0100a84581c650f2a7.png" alt="图片加载失败" />
+						</a>
+						<ul class="f-ul">
+							<li>
+								<a href="##">运动上衣</a>
+								<a href="##">运动裤</a>
+								<a href="##">运动鞋</a>
+							</li>
+							<li>
+								<a href="##">运动内衣</a>
+								<a href="##">筋膜枪</a>
+								<a href="##">瑜伽服</a>
+							</li>
+							<li>
+								<a href="##">泳衣</a>
+								<a href="##">运动包</a>
+								<a href="##">瑜伽垫</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			<!-- 2-5更多商品end -->
+			</div>
+			</div>
+		</div>
+	<!-- 2.楼层部分end -->
+	<!-- 3.尾部 -->
+		<div id="footer">
+		<div class="box3">
+			<div class="wbdiv"><img src="img/3/weibutu.jpg" alt="图片加载失败" /></div>
+			<p class="wbp">Copyright © 360网址导航.All Rights Reserved.</p>
+		</div>
+	<!-- 3.尾部end -->
+	</div>
+	<!-- 登录和注册页 -->
+		<div class="loginD">
+			<table>
+				<tr>
+					<td>
+						<input type="text" name="username" class="userA" placeholder=" 请输入用户名" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="password" class="passA" placeholder=" 请输入密···码" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" class="code" placeholder=" 请再次输入密码" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button name="loginB" class="bot">登录</button>
+						<button name="nextB" class="bot nexta">退出</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="shopD">
+			<table>
+				<tr>
+					<td>
+						<input type="text" name="username" class="userB" placeholder=" 请输入用户名 /支持6-12位 数字、英文、$、下划线" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="password" class="passB" placeholder=" 请输入密···码 /支持6-8位 数字、英文" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="huad">
+							向右滑验证
+							<div class="xhuad">>></div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button name="shopB" class="bot">注册</button>
+						<button name="nextB" class="bot nextb">退出</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	<!-- 登录和注册页end -->
+</body>
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+<script src="data/shop.js"></script>
+<script type="text/javascript">
+	onload = function(){
+		lbtu1()
+		lbtu2()
+		lblis()
+		byrx()
+	}
+	(function(){
+		var ul = $('.divd2');
+		var arr = [];
+		ajax({
+			url : "data/haimeiguanggou.json",
+			callback : function(msg){
+				var data = msg.data;
+				var el;
+				for(var i=0;i<data.length;i++){
+					el = data[i];
+					if((i+1)%5==0){
+						arr.push(`
+							<li class="divd2-1 divd2-2">
+								<img src="${el.imgurl}" alt="图片加载失败" />
+								<div class="center">
+									<p class="div21-p1"><sup>${el.sup}</sup>${el.price}<sub><s>${el.cost}</s></sub></p>
+									<p class="div21-p2">${el.digest}</p>
+									<div class="xl">
+										<img src="img/2/d/001.png" alt="图片加载失败" />
+										<p class="xl-p1 fl">${el.sold}</p>
+										<p class="xl-p2 fr">${el.area}</p>
+									</div>
+								</div>
+								<a href="#">
+									<div class="gwc">
+										<img src="img/2/d/gwcqkk.png" alt="图片加载失败">
+										去看看
+									</div>
+								</a>
+							</li>
+						`)
+					}else{
+						arr.push(`
+							<li class="divd2-1">
+								<img src="${el.imgurl}" alt="图片加载失败" />
+								<div class="center">
+									<p class="div21-p1"><sup>${el.sup}</sup>${el.price}<sub><s>${el.cost}</s></sub></p>
+									<p class="div21-p2">${el.digest}</p>
+									<div class="xl">
+										<img src="img/2/d/001.png" alt="图片加载失败" />
+										<p class="xl-p1 fl">${el.sold}</p>
+										<p class="xl-p2 fr">${el.area}</p>
+									</div>
+								</div>
+								<a href="#">
+									<div class="gwc">
+										<img src="img/2/d/gwcqkk.png" alt="图片加载失败">
+										去看看
+									</div>
+								</a>
+							</li>
+						`)
+					}
+				}
+				ul.innerHTML = arr.join('');
+			}
+		})
+	}());
+</script>
+</html>
