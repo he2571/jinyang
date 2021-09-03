@@ -1,0 +1,22 @@
+#footer{
+	width:100%;
+	height:211px;
+	background:url("../img/3/weibubg.png");
+}
+.box3{
+	width:1896px;
+	height:211px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.wbdiv{
+	width:219px;
+	height:40px;
+	margin:45px auto 36px;
+}
+.wbp{
+	font-size:20px;
+	color:#c8eeee;
+	text-align:center;
+	text-decoration:none;
+}
